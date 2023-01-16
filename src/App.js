@@ -8,15 +8,22 @@ import {
 //Components
 import Home from "./Components/Home";
 import About from "./Components/About";
+import Faq from "./Components/help/Faq";
+import Contact from "./Components/help/Contact";
 
 //Layout
 import RootLayout from "./Layouts/RootLayout";
+import HelpLayout from "./Layouts/HelpLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="/about" element={<About />} />
+      <Route path="help" element={<HelpLayout />}>
+        <Route path="faq" element={<Faq />} />
+        <Route path="contact" element={<Contact />} />
+      </Route>
     </Route>
   )
 );
