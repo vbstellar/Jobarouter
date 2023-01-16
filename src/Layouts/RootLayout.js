@@ -9,6 +9,7 @@ export default function RootLayout() {
           <NavLink to="/">HOME</NavLink>
           <NavLink to="about">ABOUT US</NavLink>
           <NavLink to="help">Help</NavLink>
+          <NavLink to="careers">Careers</NavLink>
         </nav>
       </header>
 
