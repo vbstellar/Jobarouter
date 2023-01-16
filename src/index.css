@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 20px;
   font-family: "Poppins";
-  background: var(--secondary);
+  /* background: var(--secondary); */
+  background-image: linear-gradient(to right, #32347b, #01a691) ;
 }
 * {
   color: #fff;
@@ -49,7 +50,10 @@ header nav a.active{
 
 
 /* page content */
-
+main{
+  max-width: 1200px;
+  margin: 40px auto;
+}
 
 /* help layout */
 
