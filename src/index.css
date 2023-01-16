@@ -109,3 +109,10 @@ form label span {
 
 
 /* breadcrumbs */
+
+/* error 404*/
+.error404{
+  height: 600px;
+  width: 1200px;
+  background-image: url("../public/404-router.png");
+}

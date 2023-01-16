@@ -10,6 +10,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Faq from "./Components/help/Faq";
 import Contact from "./Components/help/Contact";
+import NotFound from "./Components/NoTFound";
 
 //Layout
 import RootLayout from "./Layouts/RootLayout";
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
+      <Route path="*" element={<NotFound />} />
     </Route>
   )
 );
