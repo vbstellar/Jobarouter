@@ -8,8 +8,7 @@ body {
   margin: 0;
   padding: 20px;
   font-family: "Poppins";
-  /* background: var(--secondary); */
-  background-image: linear-gradient(to right, #32347b, #01a691) ;
+  background: var(--secondary);
 }
 * {
   color: #fff;
@@ -33,9 +32,9 @@ header nav {
   gap: 16px;
   justify-content: end;
   max-width: 1200px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
-header nav h1{
+header nav h1 {
   margin-right: auto;
   border-bottom: 3px solid var(--primary);
 }
@@ -44,13 +43,12 @@ header nav a{
   padding: 6px;
   border-radius: 4px;
 }
-header nav a.active{
+header nav a.active {
   background: var(--primary);
 }
 
-
 /* page content */
-main{
+main {
   max-width: 1200px;
   margin: 40px auto;
 }
@@ -123,13 +121,11 @@ form label span {
 }
 
 /* careers details */
-
+.career-details {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
 
 /* breadcrumbs */
-
-/* error 404*/
-.error404{
-  height: 600px;
-  width: 1200px;
-  background-image: url("../public/404-router.png");
-}
