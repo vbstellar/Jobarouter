@@ -129,3 +129,21 @@ form label span {
 }
 
 /* breadcrumbs */
+.breadcrums {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.breadcrums > *{
+  display: inline-block;
+  margin-right: 10px;
+}
+.breadcrums .crum:after {
+  content: '>';
+  margin-left: 10px;
+}
+.breadcrums .crum:last-child:after {
+  display: none;
+}
+.breadcrums .crum a {
+  color: #ddd;
+}
